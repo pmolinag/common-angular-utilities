@@ -17,7 +17,6 @@ function organizeImports(content: string): string {
 		}
 	});
 
-
 	const formattedThirdPartyImports = thirdPartyImports
 		.sort()
 		.map((imp) => `${imp}\n`)
