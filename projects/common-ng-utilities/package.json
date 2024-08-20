@@ -1,7 +1,7 @@
 {
   "name": "common-ng-utilities",
   "schematics": "./schematics/collection.json",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "bin": {
     "organize-imports": "./scripts/organize-imports.js"
   },
