@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/pmolinag/common-angular-utilities/compare/v1.1.6...v1.2.0) (2024-08-20)
+
+
+### Features
+
+* **prettier:** add prettier ([0cb40cb](https://github.com/pmolinag/common-angular-utilities/commit/0cb40cb9dbb12e14d82fdd9ee72c0661fb992677))
+
 ## [1.1.6](https://github.com/pmolinag/common-angular-utilities/compare/v1.1.5...v1.1.6) (2024-08-20)
 
 
