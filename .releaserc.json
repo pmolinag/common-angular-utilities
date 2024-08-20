@@ -8,14 +8,14 @@
       "npmPublish": true
     }],
     ["@semantic-release/npm", {
-      "pkgRoot": ".",
+      "pkgRoot": "./projects/common-ng-utilities",
       "npmPublish": false
     }],
     "@semantic-release/github",
     [
       "@semantic-release/git",
         {
-          "assets": ["./projects/common-ng-utilities/package.json", "./projects/common-ng-utilities/package-lock.json", "./CHANGELOG.md"],
+          "assets": ["./projects/common-ng-utilities/package.json", "./projects/common-ng-utilities/package-lock.json", "./projects/common-ng-utilities/CHANGELOG.md"],
           "message": "chore: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
     ]
