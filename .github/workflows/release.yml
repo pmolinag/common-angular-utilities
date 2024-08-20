@@ -34,5 +34,5 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # automatically provided by GitHub Actions
-          NPM_TOKEN: ${{ secrets.NPM_SECRET }} # required to publish in npm
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # required to publish in npm
         run: npx semantic-release --debug
