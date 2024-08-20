@@ -2,6 +2,9 @@
   "name": "common-ng-utilities",
   "schematics": "./schematics/collection.json",
   "version": "1.2.0",
+  "bin": {
+    "schematic-runner": "./scripts/schematic-runner.js"
+  },
   "private": false,
   "peerDependencies": {
     "@angular/common": "^18.1.0",
