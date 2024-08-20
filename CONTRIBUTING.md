@@ -16,4 +16,4 @@ The table below shows which commit message gets you which release type when `sem
 
 ## Coding Rules
 
-We follow [Google's JavaScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+We follow [Google's TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)

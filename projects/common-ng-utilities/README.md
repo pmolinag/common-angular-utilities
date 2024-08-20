@@ -1,24 +1,17 @@
-# PeopleOsUtilities
+# CommonNgUtilities
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
-## Code scaffolding
+## How to use
 
-Run `ng generate component component-name --project common-ng-utilities` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project common-ng-utilities`.
-> Note: Don't forget to add `--project common-ng-utilities` or else it will be added to the default project in your `angular.json` file. 
+1. Install the library by running `npm install common-ng-utilities`
+2. Run schematics with `ng g common-ng-utilities:<schematic-name>`
 
-## Build
+Optionally, you can run the schematics with `npx schematic-runner <schematic-name>`
 
-Run `ng build common-ng-utilities` to build the project. The build artifacts will be stored in the `dist/` directory.
+Current schematics available:
 
-## Publishing
-
-After building your library with `ng build common-ng-utilities`, go to the dist folder `cd dist/common-ng-utilities` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test common-ng-utilities` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+| Schematic           | What does it do?                                                                                                                                                 |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `organize-imports`  | It organizes the imports of all .ts files alphabetically in 2 blocks, first block with the third-party libraries imports and second block with internal imports. |
+| `convert-enums`     | It applies the PascalCase naming convention to all Enums and their usages.                                                                                       |

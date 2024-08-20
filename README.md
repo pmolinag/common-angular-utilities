@@ -6,5 +6,5 @@
 
 ### Prerequisites
 
-- Install [Node.js](https://nodejs.org/en) which includes [Node Package Manager](https://www.npmjs.com/). Minimal required version is 20.x.x
+- Install [Node.js](https://nodejs.org/en) which includes [Node Package Manager](https://www.npmjs.com/). Minimal required version is 20.8.x
 - Install [Angular CLI](https://github.com/angular/angular-cli). Minimal required version is 18.x.x
