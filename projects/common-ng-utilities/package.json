@@ -1,0 +1,17 @@
+{
+  "name": "common-ng-utilities",
+  "schematics": "./schematics/collection.json",
+  "version": "0.0.6",
+  "bin": {
+    "organize-imports": "./scripts/organize-imports.js"
+  },
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "^18.1.0",
+    "@angular/core": "^18.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

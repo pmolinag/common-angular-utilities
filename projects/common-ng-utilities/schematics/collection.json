@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "convert-enums": {
+      "description": "Convert enums to UpperCamelCase",
+      "factory": "./convert-enums/index#convertEnums",
+      "schema": "./convert-enums/schema.json"
+    },
+    "organize-imports": {
+      "description": "Organize Imports",
+      "factory": "./organize-imports/index#organizeImportsRule",
+      "schema": "./organize-imports/schema.json"
+    }
+  }
+}

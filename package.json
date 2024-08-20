@@ -1,0 +1,44 @@
+{
+  "name": "common-angular-utilities",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build common-ng-utilities --configuration production && tsc -p ./projects/common-ng-utilities/tsconfig.schematics.json",
+    "postbuild": "copyfiles -u 2 ./projects/common-ng-utilities/schematics/*/schema.json ./projects/common-ng-utilities/schematics/*/files/** ./projects/common-ng-utilities/schematics/collection.json ./dist/common-ng-utilities/ && copyfiles -u 2 ./projects/common-ng-utilities/scripts/* ./dist/common-ng-utilities/",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "release": "semantic-release"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/animations": "^18.0.0",
+    "@angular/common": "^18.0.0",
+    "@angular/compiler": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "@angular/forms": "^18.0.0",
+    "@angular/platform-browser": "^18.0.0",
+    "@angular/platform-browser-dynamic": "^18.0.0",
+    "@angular/router": "^18.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.1.4",
+    "@angular/cli": "^18.0.5",
+    "@angular/compiler-cli": "^18.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@types/jasmine": "~5.1.0",
+    "copyfiles": "^2.4.1",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^18.1.0",
+    "semantic-release": "^24.0.0",
+    "typescript": "~5.4.2"
+  }
+}

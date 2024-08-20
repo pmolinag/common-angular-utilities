@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "convert-enums",
+  "title": "Convert Enums to UpperCamelCase",
+  "type": "object",
+  "required": []
+}
