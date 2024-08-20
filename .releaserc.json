@@ -11,6 +11,12 @@
       "pkgRoot": "./projects/common-ng-utilities",
       "npmPublish": false
     }],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "./projects/common-ng-utilities/CHANGELOG.md"
+      }
+    ],
     "@semantic-release/github",
     [
       "@semantic-release/git",
