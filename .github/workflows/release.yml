@@ -2,10 +2,10 @@ name: Release
 on:
   push:
     branches:
-      - main # or main
+      - main
 
 permissions:
-  contents: read # for checkout
+  contents: read
 
 jobs:
   release:
@@ -33,6 +33,6 @@ jobs:
         run: npm audit signatures
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # automatically provided by GitHub Actions
+          NPM_TOKEN: ${{ secrets.NPM_SECRET }} # required to publish in npm
         run: npx semantic-release --debug
