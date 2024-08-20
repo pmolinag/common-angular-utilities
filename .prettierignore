@@ -1,0 +1,16 @@
+node_modules
+dist
+*.json
+*.md
+*.ico
+*.yml
+*.xml
+*.iml
+e2e
+tools
+**/environments
+.husky
+**/assets
+coverage
+angular
+target
