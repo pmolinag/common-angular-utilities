@@ -1,7 +1,7 @@
 {
   "name": "common-ng-utilities",
   "schematics": "./schematics/collection.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^18.1.0",
