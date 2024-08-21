@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/pmolinag/common-angular-utilities/compare/v1.3.0...v1.3.1) (2024-08-21)
+
+
+### Bug Fixes
+
+* **script:** fix schematic-runner script ([a51e81e](https://github.com/pmolinag/common-angular-utilities/commit/a51e81eb1dc182c92002a5a359cfecc1a79de504))
+
 # [1.3.0](https://github.com/pmolinag/common-angular-utilities/compare/v1.2.0...v1.3.0) (2024-08-21)
 
 
