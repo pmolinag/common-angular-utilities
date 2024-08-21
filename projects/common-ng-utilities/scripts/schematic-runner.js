@@ -11,6 +11,7 @@ if (!schematic) {
 
 try {
 	console.log('Installing needed dependencies');
+	execSync('npm install -g common-ng-utilities', { stdio: 'inherit' });
 	execSync('npm install -g @angular-devkit/schematics-cli', { stdio: 'inherit' });
 	execSync('npm install -g typescript', { stdio: 'inherit' });
 
@@ -23,6 +24,7 @@ try {
 	process.exit(1);
 } finally {
 	console.log('Uninstalling needed dependencies');
+	execSync('npm uninstall -g common-ng-utilities', { stdio: 'inherit' });
 	execSync('npm uninstall -g @angular-devkit/schematics-cli', { stdio: 'inherit' });
 	execSync('npm uninstall -g typescript', { stdio: 'inherit' });
 }
