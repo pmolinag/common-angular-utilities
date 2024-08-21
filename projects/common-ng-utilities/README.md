@@ -7,7 +7,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 1. Install the library by running `npm install common-ng-utilities`
 2. Run schematics with `ng g common-ng-utilities:<schematic-name>`
 
-Optionally, you can run the schematics with `npx schematic-runner <schematic-name>`
+Optionally, you can run the schematics with `npx -p common-ng-utilities schematic-runner <schematic-name>`
 
 Current schematics available:
 
