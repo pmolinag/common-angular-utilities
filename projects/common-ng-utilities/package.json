@@ -1,7 +1,7 @@
 {
   "name": "common-ng-utilities",
   "schematics": "./schematics/collection.json",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "bin": {
     "schematic-runner": "./scripts/schematic-runner.js"
   },

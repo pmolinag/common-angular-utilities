@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pmolinag/common-angular-utilities/compare/v1.2.0...v1.3.0) (2024-08-21)
+
+
+### Features
+
+* **script:** add bin script ([49f9335](https://github.com/pmolinag/common-angular-utilities/commit/49f9335aa869d8aec77418cb09952ad14dbee25a))
+
 # [1.2.0](https://github.com/pmolinag/common-angular-utilities/compare/v1.1.6...v1.2.0) (2024-08-20)
 
 
