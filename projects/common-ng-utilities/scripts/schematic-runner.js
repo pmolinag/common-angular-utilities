@@ -21,7 +21,6 @@ try {
 	console.log('Schematic execution completed successfully.');
 } catch (error) {
 	console.error('An error occurred:', error);
-	process.exit(1);
 } finally {
 	console.log('Uninstalling needed dependencies');
 	execSync('npm uninstall -g common-ng-utilities', { stdio: 'inherit' });
